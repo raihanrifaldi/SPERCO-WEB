@@ -572,11 +572,25 @@ body {
 }
 
 .formbold-form-wrapper {
-  margin: 250px auto;
   max-width: 570px;
   width: 100%;
   background: white;
   padding: 40px;
+}
+
+.formbold-form-wrapper-signup {
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  padding: 0px;
+}
+
+.formbold-form-wrapper-signin {
+  margin-top: 50px;
+  max-width: 570px;
+  width: 100%;
+  background: white;
+  padding: 45px;
 }
 
 .formbold-img {

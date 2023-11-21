@@ -44,7 +44,7 @@
             <li class="scroll-to-section"><a href="index.html">About</a></li>
             <li class="scroll-to-section"><a href="index.html">Pricing</a></li>
             <li class="scroll-to-section"><a href="index.html">Newsletter</a></li>
-            <li><div class="gradient-button"><a id="modal_trigger" href="signin.html"><i class="fa fa-sign-in-alt"></i> Sign In Now</a></div></li> 
+            <li><div class="gradient-button"><a id="modal_trigger" href="signup.html"><i class="fa fa-sign-in-alt"></i> Sign Up</a></div></li> 
           </ul>        
           <a class='menu-trigger'>
               <span>Menu</span>
@@ -56,6 +56,7 @@
   </div>
 </header>
 <!-- ***** Header Area End ***** -->
+
 <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
   <div class="container">
     <div class="row">
@@ -68,53 +69,29 @@
 
       <!-- Right container for the form -->
       <div class="col-lg-6">
-        <div class="formbold-main-wrapper-signup">
+        <div class="formbold-main-wrapper-signin">
           <!-- Author: FormBold Team -->
           <!-- Learn More: https://formbold.com -->
           <div class="formbold-form-wrapper">
             <form action="https://formbold.com/s/FORM_ID" method="POST">
-              <!-- Your form content here -->
-
-              <div class="formbold-input-wrapp formbold-mb-3">
-                <label for="firstname" class="formbold-form-label"> Username </label>
-
-                <div>
-                  <input
-                    type="text"
-                    name="firstname"
-                    id="firstname"
-                    placeholder="First name"
-                    class="formbold-form-input"
-                  />
-
-                  <input
-                    type="text"
-                    name="lastname"
-                    id="lastname"
-                    placeholder="Last name"
-                    class="formbold-form-input"
-                  />
-                </div>
-              </div>
-
-              <!-- Add the rest of your form fields here -->
-              <div class="formbold-mb-3">
-                <label class="formbold-form-label">Gender</label>
-        
-                <select class="formbold-form-input" name="occupation" id="occupation">
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                  <option value="others">Others</option>
-                </select>
-              </div>
-        
-              <div class="formbold-mb-3">
-                <label for="email" class="formbold-form-label"> Email </label>
+              <div class="formbold-mb-3" style="margin-top: 75px;">
+                <label for="username" class="formbold-form-label"> Username </label>
                 <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="example@email.com"
+                  type="username"
+                  name="username"
+                  id="username"
+                  placeholder="username"
+                  class="formbold-form-input"
+                />
+              </div>
+        
+              <div class="formbold-mb-3" >
+                <label for="password" class="formbold-form-label"> Password </label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="password"
                   class="formbold-form-input"
                 />
               </div>
@@ -151,11 +128,7 @@
               </div>
 
               <button class="formbold-btn">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+    </form>
   </div>
 </div>
 
