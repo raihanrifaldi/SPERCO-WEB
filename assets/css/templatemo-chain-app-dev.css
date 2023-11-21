@@ -991,10 +991,6 @@ Services Style
   z-index: 0;
 }
 
-.services:before {
-
-}
-
 .services .section-heading {
   text-align: center;
   margin-bottom: 200px;
@@ -1476,7 +1472,7 @@ a.btn_red {
   
   padding: 5px 10px;
   margin-right: 10px;
-  float: left;
+  float:none;
   color: #FFF;
   font-size: 16px;
   text-align: center;

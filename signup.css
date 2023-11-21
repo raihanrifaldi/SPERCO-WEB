@@ -1,3 +1,35 @@
+.main-banner .right-image {
+  text-align: center;
+  position: relative;
+  z-index: 20;
+}
+
+.main-banner .right-image img {
+  max-width: 710px;
+}
+
+.about-us .right-image {
+  position: relative;
+  z-index: 1;
+}
+
+.main-banner .right-image {
+  margin: 30px auto 0px auto;
+  text-align: center;
+}
+
+.about-us .right-image {
+  margin-top: 30px;
+}
+
+.about-us .right-image {
+  margin-top: 30px;
+}
+
+.services ul.nacc li .right-image img {
+  float: none;
+}
+
 
   /* 
 ---------------------------------------------
